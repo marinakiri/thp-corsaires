@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'corsairs#index'
+  root 'static_pages#home'
   resources :corsairs
 end
